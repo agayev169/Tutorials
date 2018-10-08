@@ -1,14 +1,13 @@
+package First;
+
 import java.util.Scanner;
 
-public class OddOrEven {
+public class LastDigit {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Number: ");
         int num = sc.nextInt();
-        if (num % 2 == 0) {
-            System.out.println(num + " is even");
-        } else {
-            System.out.println(num + " is odd");
-        }
+        int rem = num % 10;
+        System.out.println("Last digit: " + rem);
     }
 }
