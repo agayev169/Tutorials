@@ -1,3 +1,5 @@
+package FirstExercises;
+
 import java.util.Scanner;
 
 public class LastTwoDigits {
